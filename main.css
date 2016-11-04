@@ -1,0 +1,35 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:content-box;
+}
+
+body{
+	margin:10px;
+}
+
+.caja{
+	background-color: #7f7f7f;
+	width: 100px;
+	height:100px;
+	border:1px solid #000000;
+}
+.contenedor{
+	
+	border: 1px solid #000000;
+	width: 323px;
+
+}
+
+.contenedor .caja{
+	display: inline-block;
+	margin-top:4px;
+}
+
+#primero{
+	margin-bottom: 4px;
+}
+#interior{
+	margin-left: 4px;
+}
+
